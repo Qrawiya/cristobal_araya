@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/010/555/890/original/colorful-neon-frame-on-a-dark-background-abstract-illustration-vector.jpg'); /* Cambia 'fondo.jpg' por el nombre de mi imagen */
+  background-size: cover; /* Ajusta la imagen para cubrir toda el área */
+  background-position: center; /* Centra la imagen */
+  background-attachment: fixed; /* Fija la imagen de fondo cuando se desplaza */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.navbar-custom {
+  color: white;
+  
+}
+
+.project-link {
+  color: rgb(9, 255, 0); /* Cambia este color según mis necesidades */
+  text-decoration: none; /* Opcional: quita el subrayado del enlace */
+}
+
+.project-link:hover {
+  color: rgb(137, 139, 0); /* Cambia este color según mis necesidades para el estado hover */
+}
+
+body {
+    background-color: #000; /* Color negro de fondo */
+    color: #fff; /* Color de texto blanco para contrastar */
+  }
+  
+  /* Estilos adicionales según sea necesario */
+  /* Ajustar según necesito */
+  .large-font {
+    font-size: 1.5rem; 
+  }
+  
+  .medium-font {
+    font-size: 1rem;
+  }
+  
+  .small-font {
+    font-size: 1.25rem;
+  }
