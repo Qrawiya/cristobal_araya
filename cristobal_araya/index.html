@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Cristobal Araya</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+
+  <nav class="navbar sticky-top navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand navbar-custom" href="#">PORTAFOLIO CRISTOBAL</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active navbar-custom" aria-current="page" href="#Contactame">CONTACTO</a>
+          <a class="nav-link navbar-custom" href="#"></a>
+          <a class="nav-link navbar-custom" href="#Habilidades">SKILLS</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#Cristobal"> <em><strong>CRISTOBAL ARAYA</strong></em></a>
+    </div>
+  </nav>
+<br>
+<br>
+<div class="container text-center">
+  <h1 id="Cristobal" class="container">Hi! soy Cristobal! Bienvenido</h1>
+  <h3 class="container"> <em>Construyo cosas para la web :D</em></h3>
+  <hr>
+  <h5 class="container medium-font">Futuro <strong>Desarrollador Python Full Stack</strong> / Ing en Adm Empresas Marketing Digital</h5>
+  <hr>
+  <h6 class="container small-font">Un poco sobre mi</h6>
+  <hr>
+</div>
+  <div>
+  <p class="container mt-6">Estudie Administracion de Empresas Mencion Marketing y trabaje bastante tiempo en la industria minera, pero sentia que algo me faltaba, que algo no me llenaba hasta que conoci la programacion, asi que decidi incursionar en este interesante mundo, de esta forma podre ampliar mis conocimientos y construir nuevos elementos para mi y la humanidad!
+  </div>
+</div>
+<br>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-3">
+        <h2>Mis Proyectos</h2>
+        <ul id="project-list" class="list-group">
+          <!-- Aquí se cargan dinámicamente los proyectos con jQuery -->
+        </ul>
+      </div>
+      <div id="project-details" class="col-md-6">
+        <h2></h2>
+        <div id="project-content">
+          <!-- Aquí se cargan dinámicamente los detalles del proyecto seleccionado -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container text-center">
+<h2 id="Habilidades">Skills de programacion</h2>
+<br>
+<h5><em>Ojo que seran mas en el futuro! jaja</em></h5>
+<br>
+<p>Algunas de las Habilidades que actualmente poseo para poder trabajar contenido web son las siguientes:</p>
+<img src="./assets/img/html_css_js_bootstrap.png" width="400" >
+
+</div>
+<br>
+<br>
+
+<div id=parrafo class="container text-center">
+  <h2>Aspiraciones futuras y proyecciones</h2>
+  <br>
+  <p>La idea es que con el tiempo pueda ir adquiriendo nuevas skills, para no solo diseñar paginas web, sino tambien poder ser capaz de crear software, aplicaciones y mas,
+    esto a traves del dominio de Python, Django y muchas otras herramientas. Con la idea de finalmente con el tiempo y la experiencia convertirme en un <em><strong>Programador Full Stack Python Senior!</strong></em> El mundo es de quien va por el!
+  </p>
+</div>
+<br>
+<br>
+      <!-- Formulario de contacto -->
+  <div class="container" class="mb-3">
+    
+    <h2 id="Contactame"> <em>Contacto!</em></h2>
+    <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tucorreo@123.com/cl">
+  </div>
+  <div class="container" class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Comentarios y/o consulta</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="container mb-3">
+  <br>
+    <button class="btn btn-dark" id="alertButton">SEND!</button>
+</div>
+
+  <br>
+  <br>
+  <!-- jQuery, Popper.js, Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Script personalizado -->
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
